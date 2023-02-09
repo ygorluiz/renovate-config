@@ -4,7 +4,7 @@
     ":label(renovate)",
     ":prConcurrentLimit10",
     ":prNotPending",
-    ":timezone(Asia/Tokyo)",
+    ":timezone(America/Sao_Paulo)",
     "group:monorepos"
   ],
   "npm": {
@@ -16,7 +16,7 @@
       "helpers:disableTypesNodeMajor",
       "group:jestPlusTSJest",
       "packages:eslint",
-      "local>teppeis/renovate-config:semanticPrefixFixDepsPeerChoreOthers"
+      "local>ygorluiz/renovate-config:semanticPrefixFixDepsPeerChoreOthers"
     ],
     "schedule": ["after 9pm", "before 9am"],
     "rangeStrategy": "bump",

@@ -1,8 +1,8 @@
 {
-  "name": "@teppeis/renovate-config",
+  "name": "@ygorluiz/renovate-config",
   "description": "My shareable config for Renovate (renovatebot.com)",
   "version": "1.15.0",
-  "author": "Teppei Sato <teppeis@gmail.com>",
+  "author": "Teppei Sato <ygorluiz@gmail.com>",
   "files": [],
   "scripts": {
     "test": "run-s validate:*",
@@ -14,13 +14,13 @@
     "npm-run-all": "^4.1.5",
     "renovate": "^32.68.3"
   },
-  "homepage": "https://github.com/teppeis/renovate-config",
+  "homepage": "https://github.com/ygorluiz/renovate-config",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/teppeis/renovate-config.git"
+    "url": "git+ssh://git@github.com/ygorluiz/renovate-config.git"
   },
   "bugs": {
-    "url": "https://github.com/teppeis/renovate-config/issues"
+    "url": "https://github.com/ygorluiz/renovate-config/issues"
   },
   "keywords": [
     "npm",

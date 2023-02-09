@@ -1,4 +1,4 @@
-# @teppeis/renovate-config
+# @ygorluiz/renovate-config
 
 My [shareable config](https://renovatebot.com/docs/config-presets/) for [Renovate](https://renovatebot.com)
 
@@ -13,16 +13,16 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 
 ```js
 {
-  "extends": ["github>teppeis/renovate-config"] // or ["github>teppeis/renovate-config:anytime"]
+  "extends": ["github>ygorluiz/renovate-config"] // or ["github>ygorluiz/renovate-config:anytime"]
 }
 ```
 
-Note: You don't have to do `npm i -D @teppeis/renovate-config`.
+Note: You don't have to do `npm i -D @ygorluiz/renovate-config`.
 Renovate fetches it from this GitHub repo automatically.
 
 ## Presets
 
-### `github>teppeis/renovate-config` (`default`)
+### `github>ygorluiz/renovate-config` (`default`)
 
 #### General
 
@@ -80,7 +80,7 @@ Renovate fetches it from this GitHub repo automatically.
       ":separatePatchReleases",
       "npm:unpublishSafe",
       "helpers:disableTypesNodeMajor",
-      "local>teppeis/renovate-config:semanticPrefixFixDepsPeerChoreOthers"
+      "local>ygorluiz/renovate-config:semanticPrefixFixDepsPeerChoreOthers"
     ],
     "schedule": ["after 9pm", "before 9am"],
     "rangeStrategy": "bump",
@@ -134,13 +134,13 @@ Renovate fetches it from this GitHub repo automatically.
 }
 ```
 
-### `github>teppeis/renovate-config:anytime`
+### `github>ygorluiz/renovate-config:anytime`
 
 - Run Renovate **_at any time_**
 
 ```json
 {
-  "extends": ["local>teppeis/renovate-config"],
+  "extends": ["local>ygorluiz/renovate-config"],
   "npm": {
     "schedule": "at any time"
   },
@@ -153,7 +153,7 @@ Renovate fetches it from this GitHub repo automatically.
 }
 ```
 
-### `github>teppeis/renovate-config:semanticPrefixFixDepsPeerChoreOthers`
+### `github>ygorluiz/renovate-config:semanticPrefixFixDepsPeerChoreOthers`
 
 If semantic commits detected, use semantic commit type `fix` for `dependencies` and `peerDependencies`, `chore` for all others
 
@@ -187,16 +187,16 @@ If semantic commits detected, use semantic commit type `fix` for `dependencies` 
 
 ## License
 
-MIT License: Teppei Sato &lt;teppeis@gmail.com&gt;
+MIT License: Teppei Sato &lt;ygorluiz@gmail.com&gt;
 
-[npm-image]: https://img.shields.io/npm/v/@teppeis/renovate-config.svg
-[npm-url]: https://npmjs.org/package/@teppeis/renovate-config
-[npm-downloads-image]: https://img.shields.io/npm/dm/@teppeis/renovate-config.svg
-[ci-image]: https://github.com/teppeis/renovate-config/workflows/ci/badge.svg
-[ci-url]: https://github.com/teppeis/renovate-config/actions?query=workflow%3Aci
-[deps-image]: https://img.shields.io/david/teppeis/renovate-config.svg
-[deps-url]: https://david-dm.org/teppeis/renovate-config
+[npm-image]: https://img.shields.io/npm/v/@ygorluiz/renovate-config.svg
+[npm-url]: https://npmjs.org/package/@ygorluiz/renovate-config
+[npm-downloads-image]: https://img.shields.io/npm/dm/@ygorluiz/renovate-config.svg
+[ci-image]: https://github.com/ygorluiz/renovate-config/workflows/ci/badge.svg
+[ci-url]: https://github.com/ygorluiz/renovate-config/actions?query=workflow%3Aci
+[deps-image]: https://img.shields.io/david/ygorluiz/renovate-config.svg
+[deps-url]: https://david-dm.org/ygorluiz/renovate-config
 [node-version]: https://img.shields.io/badge/Node.js%20support-v6,v8,v9-brightgreen.svg
-[coverage-image]: https://img.shields.io/coveralls/teppeis/renovate-config/master.svg
-[coverage-url]: https://coveralls.io/github/teppeis/renovate-config?branch=master
-[license]: https://img.shields.io/npm/l/@teppeis/renovate-config.svg
+[coverage-image]: https://img.shields.io/coveralls/ygorluiz/renovate-config/master.svg
+[coverage-url]: https://coveralls.io/github/ygorluiz/renovate-config?branch=master
+[license]: https://img.shields.io/npm/l/@ygorluiz/renovate-config.svg
