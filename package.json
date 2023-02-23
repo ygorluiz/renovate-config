@@ -1,8 +1,8 @@
 {
-  "name": "@ygorluiz/renovate-config",
+  "name": "@ygorconfig/renovate-config",
   "description": "My shareable config for Renovate (renovatebot.com)",
   "version": "1.15.0",
-  "author": "Teppei Sato <ygorluiz@gmail.com>",
+  "author": "Ygor Luiz <ygorluiz@gmail.com>",
   "files": [],
   "scripts": {
     "test": "run-s validate:*",
